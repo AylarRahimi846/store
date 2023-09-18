@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1c181a;
+}
+
+
+section {
+    background-color: #1c181a;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background-color: #afaca2;
+    width: 250px;
+    height:400px;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 1px 1px 13px 0rem;
+    margin: 25px 15px;
+    
+
+    
+}
+
+.title{
+    font-size: 18px;
+    margin-top: 20px;
+    color: #1c181a;
+    
+}
+
+#price{
+    color: #1c181a;
+}
+
+.button__basket{
+    display: block;
+    background-color: #f75a38;
+    color: #1c181a;
+    padding: 10px 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 70%;
+    margin:auto ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+img{
+    
+    width: 100%;
+    height: 250px;
+
+}
+
+.categories{
+    width: 100%;
+    height: 300px;
+
+}
+
+.category{
+    margin: 30px;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #f75a38;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__home{
+    color: black;
+    font-size: 25px;
+    margin-right: 50px;
+    margin-left: -20px;
+}
+
+.search__header{
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    margin-right: 400px; 
+    height: 40px;
+    width: 250px;
+}
+
+.header__nav--user{
+    color: black;
+    font-size: 25px;
+    margin-left: 350px;
+}
+
+.search__header--input{
+    width: 85%;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+}
+
+.search__header--input::placeholder{
+    color: black;
+    font-size: large;
+}
+
+.search__header--icon{
+    color: black;
+    font-size: x-large;
+}
+
+.header__nav--bars{
+color: black;
+font-size: 25px;
+padding-left: 5px;
+
+}
+
+.header__nav--basket{
+    color: black;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+
+
+.nav{
+    position: absolute;
+    background-color:#ebe3e0;
+    width: 250px;
+    height: 350px;
+    top: 65px;
+    right: 35px;
+    display: none;
+    border-radius: 15px;
+}
+
+.second__nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__item{
+    font-size: 25px;
+    color: #1a3749;
+    font-style: italic;
+    padding: 0 20px 10px 20px;
+    cursor: pointer;
+}
+
+
